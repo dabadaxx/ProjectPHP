@@ -1,0 +1,40 @@
+div {
+    border-width: 1px;
+    border-color: black;
+    border-style: dashed;
+    padding: 5px;
+    margin: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: pink;
+}
+.flightStats {
+    order: 0;
+    background-color: lightcyan;
+    width: 66%;
+}
+.featurebox {
+    width: 30%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+.feature {
+    /* min-width: 95%; */
+    min-height: 20%;
+    background-color: lightgray;
+
+}
